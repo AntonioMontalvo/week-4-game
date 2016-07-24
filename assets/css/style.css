@@ -1,0 +1,24 @@
+h1{
+  text-align: center;
+}
+h2{
+  font-size: 18px;
+}
+p{
+  text-align: center;
+}
+img{
+  margin: 10px;
+  width: 100px;
+  height: 80px;
+}
+body{
+    background-color: rgba(217, 247, 222, 0.68);
+}
+.jumbotron{
+  background-color: rgba(49, 143, 79, 0.48);
+  color: rgb(49, 112, 143);
+}
+.second-wrap{
+  margin-left: 20%;
+}
