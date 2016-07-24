@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Crystals Collector</title>
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div div class="wrap container-fluid">
+      <div class="row jumbotron">
+        <div class="col-lg-12"><h1>Crystals Collector</h1></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+          </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <div class="second-wrap">
+        <div class="row">
+          <div class="col-md-3"><h2>Number to Match: <span id="guessNumber"></span></h2></div>
+          <div class="col-md-3"><h2>Your Total Score Is: <span id="userScore"></span></h2></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2"><img src="assets/images/diamond.jpg"></div>
+          <div class="col-md-2"><img src="assets/images/opal.jpeg"></div>
+          <div class="col-md-2"><img src="assets/images/diamond2.jpg"></div>
+          <div class="col-md-2"><img src="assets/images/pink.jpeg"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"><h3>Wins: <span id="wins"></span></h3></div>
+          <div class="col-md-4"><h3>Losses: <span id="losses"></span></h3></div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+  </body>
+</html>
