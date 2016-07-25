@@ -12,6 +12,11 @@ img{
   width: 100px;
   height: 80px;
 }
+strong{
+  font-size: 23px;
+  color: rgba(51, 122, 183, 0.98);
+  margin-left: 18px;
+}
 body{
     background-color: rgba(217, 247, 222, 0.68);
 }
