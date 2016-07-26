@@ -27,3 +27,8 @@ body{
 .second-wrap{
   margin-left: 20%;
 }
+#game-end{
+  text-align: center;
+  font-size: 20px;
+  color: lime;
+}
